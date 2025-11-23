@@ -18,9 +18,9 @@ const Home: NextPage = () => {
             <span className="block text-5xl font-bold text-primary">Mortpool</span>
           </h1>
           <p className="text-xl mb-8">
-            Get mortgages with better rates through decentralized liquidity pools.
+            Access competitive mortgage rates through decentralized liquidity pools.
             <br />
-            Buy real-world assets on-chain with transparent, fair financing.
+            Typically 30-40% lower than traditional banks with transparent, on-chain financing.
           </p>
 
           {!connectedAddress && (
@@ -35,21 +35,21 @@ const Home: NextPage = () => {
         <div className="w-full max-w-6xl px-5 mt-12">
           <div className="stats stats-vertical lg:stats-horizontal shadow w-full">
             <div className="stat place-items-center">
-              <div className="stat-title font-semibold">Interest Rate</div>
-              <div className="stat-value text-success">5.0%</div>
-              <div className="stat-desc font-medium">vs 8% traditional</div>
+              <div className="stat-title font-semibold">Borrower Rate</div>
+              <div className="stat-value text-success text-3xl">4-6%</div>
+              <div className="stat-desc font-medium">APR · Market driven</div>
             </div>
 
             <div className="stat place-items-center">
-              <div className="stat-title font-semibold">LP APY</div>
-              <div className="stat-value text-info">3.5%</div>
-              <div className="stat-desc font-medium">Earn passive income</div>
+              <div className="stat-title font-semibold">LP Yield</div>
+              <div className="stat-value text-info text-3xl">3-5%</div>
+              <div className="stat-desc font-medium">APY · Competitive returns</div>
             </div>
 
             <div className="stat place-items-center">
-              <div className="stat-title font-semibold">Active Mortgages</div>
-              <div className="stat-value text-primary">3</div>
-              <div className="stat-desc font-medium">Properties available</div>
+              <div className="stat-title font-semibold">Rate Advantage</div>
+              <div className="stat-value text-primary text-3xl">~40%</div>
+              <div className="stat-desc font-medium">Lower than traditional</div>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
                   <li>✓ Apply with 10-20% down payment</li>
                   <li>✓ Get instant approval</li>
                   <li>✓ Track ownership growth</li>
-                  <li>✓ Pay lower interest rates</li>
+                  <li>✓ Rates 30-40% lower than banks</li>
                 </ul>
                 <div className="card-actions mt-4">
                   <Link href="/properties" className="btn btn-primary">
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
                 <h3 className="card-title">For Lenders</h3>
                 <ul className="text-left space-y-2">
                   <li>✓ Deposit ETH into pool</li>
-                  <li>✓ Earn 3.5% APY</li>
+                  <li>✓ Earn competitive yields (3-5% APY)</li>
                   <li>✓ Automatic yield distribution</li>
                   <li>✓ Insurance protection</li>
                   <li>✓ Withdraw anytime</li>
@@ -128,8 +128,8 @@ const Home: NextPage = () => {
             <div className="flex gap-4">
               <div className="text-primary text-3xl">🏦</div>
               <div>
-                <h3 className="font-bold mb-2">Lower Rates</h3>
-                <p className="text-sm">No bank overhead means better rates for borrowers and lenders</p>
+                <h3 className="font-bold mb-2">Market-Driven Rates</h3>
+                <p className="text-sm">Dynamic pricing based on supply and demand, typically 30-40% lower than banks</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -163,7 +163,7 @@ const Home: NextPage = () => {
             <p className="mb-8">
               Whether you&apos;re looking to buy property or earn yield on your crypto,
               <br />
-              Mortgage Pool makes it simple and transparent.
+              Mortpool makes it simple and transparent.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <Link href="/properties" className="btn btn-secondary btn-lg">

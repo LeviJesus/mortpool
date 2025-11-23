@@ -6,21 +6,21 @@
   <a href="#demo">Demo</a>
 </h4>
 
-💰 **Get mortgages with better rates through decentralized liquidity pools.**
+💰 **Access competitive mortgage rates through decentralized liquidity pools.**
 
-Mortpool connects borrowers directly with liquidity providers, eliminating traditional banking overhead. Borrowers get 5% APR mortgages while LPs earn 3.5% yield - better rates for everyone.
+Mortpool connects borrowers directly with liquidity providers, eliminating traditional banking overhead. Market-driven rates typically 30-40% lower than banks, with competitive yields for LPs.
 
 ⚙️ Built using Scaffold-ETH 2: NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
 
 ## ✨ Features
 
 - 🏡 **Tokenized Properties** - Real estate as NFTs with on-chain ownership tracking
-- 💵 **Lower Interest Rates** - 5% APR vs 8% traditional mortgages
-- 📈 **Earn Yield** - 3.5% APY for liquidity providers
+- 💵 **Competitive Rates** - Market-driven pricing, typically 30-40% lower than traditional banks
+- 📈 **Earn Yield** - LPs earn competitive returns (3-5% APY) on real-world assets
 - 📊 **Incremental Ownership** - Watch your ownership % grow with each payment
 - 🔒 **Insurance Pool** - 2% reserve protects against defaults
 - ⚡ **Instant Approval** - Smart contract automation
-- 🎯 **Transparent** - All terms visible on-chain
+- 🎯 **Transparent** - All terms and rate calculations visible on-chain
 
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
 - 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.

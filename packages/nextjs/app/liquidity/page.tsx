@@ -163,8 +163,8 @@ const Liquidity: NextPage = () => {
           <div className="card-body">
             <h2 className="card-title text-2xl mb-4">💰 Deposit Liquidity</h2>
             <p className="text-sm text-base-content/70 mb-4">
-              Deposit ETH to become a liquidity provider and earn {estimatedAPY ? Number(estimatedAPY) / 100 : "3.5"}%
-              APY
+              Deposit ETH to become a liquidity provider and earn competitive yields (typically 3-5% APY) from mortgage
+              interest payments
             </p>
 
             <div className="form-control">
