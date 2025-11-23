@@ -3,24 +3,24 @@
 <h4 align="center">
   <a href="#features">Features</a> |
   <a href="#quickstart">Quick Start</a> |
-  <a href="#demo">Demo</a>
 </h4>
 
-💰 **Access competitive mortgage rates through decentralized liquidity pools.**
+💰 **Access competitive mortgage rates through decentralized liquidity pools - worldwide.**
 
-Mortpool connects borrowers directly with liquidity providers, eliminating traditional banking overhead. Market-driven rates typically 30-40% lower than banks, with competitive yields for LPs.
+Mortpool connects borrowers directly with liquidity providers, eliminating traditional banking overhead. Market-driven rates typically 30-50% lower than local banks globally, with competitive yields for LPs backed by real-world assets.
 
 ⚙️ Built using Scaffold-ETH 2: NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
 
 ## ✨ Features
 
 - 🏡 **Tokenized Properties** - Real estate as NFTs with on-chain ownership tracking
-- 💵 **Competitive Rates** - Market-driven pricing, typically 30-40% lower than traditional banks
-- 📈 **Earn Yield** - LPs earn competitive returns (3-5% APY) on real-world assets
+- 💵 **Globally Competitive Rates** - Market-driven pricing, typically 30-50% lower than local banks worldwide
+- 📈 **Earn Yield** - LPs earn sustainable returns on real-world assets (50-70% of borrower rates)
 - 📊 **Incremental Ownership** - Watch your ownership % grow with each payment
-- 🔒 **Insurance Pool** - 2% reserve protects against defaults
-- ⚡ **Instant Approval** - Smart contract automation
+- 🔒 **Insurance Pool** - 2% reserve protects against defaults across all markets
+- ⚡ **Instant Approval** - Smart contract automation without geographic restrictions
 - 🎯 **Transparent** - All terms and rate calculations visible on-chain
+- 🌍 **Global Accessibility** - Serve borrowers in any country, from São Paulo to Mumbai
 
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
 - 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
@@ -97,6 +97,17 @@ http://localhost:3000
 - Deploy scripts in `packages/hardhat/deploy`
 
 For more on Scaffold-ETH 2, visit [docs.scaffoldeth.io](https://docs.scaffoldeth.io)
+
+## 🚀 Future Vision
+
+While Mortpool currently focuses on real estate mortgages, the underlying architecture is designed to scale to any high-value asset class:
+
+- **Vehicles & Equipment** - Cars, boats, heavy machinery with monthly payment plans
+- **Luxury Assets** - Watches, art, collectibles with fractional financing
+- **Business Assets** - Commercial equipment, inventory financing
+- **Digital Assets** - Domain names, NFT collections, intellectual property
+
+The core mechanics of tokenization, liquidity pooling, incremental ownership tracking, and insurance reserves can be adapted to create lending markets for any asset type. This makes Mortpool a foundation for a broader decentralized financing ecosystem beyond traditional real estate.
 
 ## 🤝 Contributing
 
