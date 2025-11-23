@@ -124,7 +124,7 @@ const Dashboard: NextPage = () => {
         <div className="space-y-6">
           {mortgages.map(mortgage => {
             if (!mortgage) return null;
-            const property = properties.find(p => p.id === mortgage.propertyId);
+            const property = properties.find(p => p.id === Number(mortgage.propertyId));
             const ownershipPercent = Number(mortgage.ownershipSharesBPS) / 100;
             const remainingBalance =
               (mortgage.loanAmount || BigInt(0)) -
