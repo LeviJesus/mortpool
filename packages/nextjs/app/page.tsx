@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <div className="px-5 text-center max-w-4xl">
           <h1 className="text-center mb-4">
             <span className="block text-2xl mb-2 font-semibold">Welcome to</span>
-            <span className="block text-5xl font-bold text-primary">Mortgage Pool Protocol</span>
+            <span className="block text-5xl font-bold text-primary">Mortpool</span>
           </h1>
           <p className="text-xl mb-8">
             Get mortgages with better rates through decentralized liquidity pools.
@@ -123,7 +123,7 @@ const Home: NextPage = () => {
 
         {/* Benefits Section */}
         <div className="w-full max-w-4xl px-5 py-16">
-          <h2 className="text-3xl font-bold text-center mb-8">Why Mortgage Pool?</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Why Mortpool?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex gap-4">
               <div className="text-primary text-3xl">🏦</div>

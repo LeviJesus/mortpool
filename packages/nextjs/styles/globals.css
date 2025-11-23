@@ -18,22 +18,22 @@
 @plugin "daisyui/theme" {
   name: "light";
 
-  --color-primary: #93bbfb;
-  --color-primary-content: #212638;
-  --color-secondary: #dae8ff;
-  --color-secondary-content: #212638;
-  --color-accent: #93bbfb;
-  --color-accent-content: #212638;
+  --color-primary: #2B7A78;
+  --color-primary-content: #ffffff;
+  --color-secondary: #3AAFA9;
+  --color-secondary-content: #ffffff;
+  --color-accent: #DEF2F1;
+  --color-accent-content: #2B7A78;
   --color-neutral: #212638;
   --color-neutral-content: #ffffff;
   --color-base-100: #ffffff;
-  --color-base-200: #f4f8ff;
-  --color-base-300: #dae8ff;
+  --color-base-200: #F7FFFE;
+  --color-base-300: #DEF2F1;
   --color-base-content: #212638;
-  --color-info: #93bbfb;
-  --color-success: #34eeb6;
-  --color-warning: #ffcf72;
-  --color-error: #ff8863;
+  --color-info: #3AAFA9;
+  --color-success: #17C3B2;
+  --color-warning: #FFA737;
+  --color-error: #EF476F;
 
   --radius-field: 9999rem;
   --radius-box: 1rem;
@@ -43,22 +43,22 @@
 @plugin "daisyui/theme" {
   name: "dark";
 
-  --color-primary: #212638;
-  --color-primary-content: #f9fbff;
-  --color-secondary: #323f61;
-  --color-secondary-content: #f9fbff;
-  --color-accent: #4969a6;
-  --color-accent-content: #f9fbff;
+  --color-primary: #3AAFA9;
+  --color-primary-content: #ffffff;
+  --color-secondary: #2B7A78;
+  --color-secondary-content: #ffffff;
+  --color-accent: #17C3B2;
+  --color-accent-content: #ffffff;
   --color-neutral: #f9fbff;
-  --color-neutral-content: #385183;
-  --color-base-100: #385183;
-  --color-base-200: #2a3655;
-  --color-base-300: #212638;
+  --color-neutral-content: #1a2332;
+  --color-base-100: #1a2332;
+  --color-base-200: #141b28;
+  --color-base-300: #0f1419;
   --color-base-content: #f9fbff;
-  --color-info: #385183;
-  --color-success: #34eeb6;
-  --color-warning: #ffcf72;
-  --color-error: #ff8863;
+  --color-info: #3AAFA9;
+  --color-success: #17C3B2;
+  --color-warning: #FFA737;
+  --color-error: #EF476F;
 
   --radius-field: 9999rem;
   --radius-box: 1rem;
